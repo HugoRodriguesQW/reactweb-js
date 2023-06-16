@@ -55,7 +55,15 @@ Este framework foi desenvolvido para aplicações leves em casos em que não é 
 ```
 
 ## Instalação do Framework:
-- Para usar o framework: ```<script src="https://reactwebjs.netlify.app/dist/reactweb.js"></script>```
+- Para usar o framework:
+
+```html
+      <script defer src="https://reactwebjs.netlify.app/dist/reactweb.js"></script>
+      
+      <hook-dom> [content-app-here] </hook-dom>
+      <component> [component-declarion] </component>
+```
+
     criar um elemento ```<hook-dom>...</hook-dom>``` para ser a raiz do app e os componentes declarados usando ```<component>```
 
 - Para usar em desenvolvimento:
