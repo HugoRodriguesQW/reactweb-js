@@ -64,7 +64,7 @@ Este framework foi desenvolvido para aplicações leves em casos em que não é 
       <component> [component-declarion] </component>
 ```
 
-    criar um elemento ```<hook-dom>...</hook-dom>``` para ser a raiz do app e os componentes declarados usando ```<component>```
+<strong>NOTA: Criar um elemento <hook-dom> para ser a raiz do app e os componentes declarados usando <component></strong>
 
 - Para usar em desenvolvimento:
     clone o repositório, execute o ```npm install``` para instalar as dependências.  ```npm start``` para observar as alterações e gerar o arquivo minificado.
