@@ -1,0 +1,7 @@
+{
+    "better-comments.highlightPlainText": true,
+    "editor.tokenColorCustomizations": {
+        "comments": "",
+        "textMateRules": []
+    }
+}

@@ -1,0 +1,42 @@
+<html lang="pt-BR" >
+    <head>
+        <title>Coleta Espessura de Garrafa</title>
+        <link rel="stylesheet" href="style.css"></link>
+        <script   type="module" id="hook-script" src="/dist/reactweb.js"></script>
+        <!-- <script   type="module" id="hook-script" src="/dist/reactweb.js"></script> -->
+    </head>
+
+    <body>
+       
+        <hook-dom>
+            <h1>Teste de Elementos Reativos Web</h1>
+            <Viewer_ > {
+                [
+                    "aprendizado contínuo",
+                    "tentativa existe sim",
+                    "tempo não tem preço",
+                    "consistência",
+                    "testar mais uma vez",
+                    "jamais satisfeito"
+                ]
+
+                .map((content, i) => {
+                    return (
+                    <DemoInfoBlock_  index="${i}" content="${content}">
+                        <DemoUseContext_  name="updater"></DemoUseContext_>
+                    </DemoInfoBlock_>
+                    )
+                }).join(" ")
+            }
+            
+        </Viewer_>
+
+        <GithubLink_></GithubLink_>
+        </hook-dom>
+
+      <Component src="../components/DemoInfoBlock.js"></Component>
+      <Component src="../components/DemoUseContext.js"></Component>
+      <Component src="../components/Viewer.js"></Component>
+      <Component src="../components/GithubLink.js"></Component>
+    </body> 
+</html>

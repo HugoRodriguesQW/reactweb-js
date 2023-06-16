@@ -1,0 +1,163 @@
+:root {
+    font-size: 13px;
+    
+}
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+hook-dom {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+hook-dom wrap wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1vw;
+    gap: 2rem;
+
+    max-width: 100rem;
+    
+}
+
+.container .close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    
+}
+
+.container.singularidade {
+    background:linear-gradient(rgba(245, 176, 233, 0.8), rgba(245, 144, 228, 0.6));
+}
+
+.container.dualidade {
+    background: linear-gradient(rgba(176,245,183,0.8), rgba(118, 222, 128, 0.6));
+}
+
+
+.container {
+    position: relative;
+    box-shadow: 0 0 12px 12px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+
+    text-align: center;
+    background: #fafafa;
+    border-radius: 3px;
+    padding: 2rem;
+    border-radius: 0.6rem;
+    gap: 1rem;
+}
+
+.container > wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container *:not(.close) {
+    width: 100%;
+}
+
+
+.container div {
+    display: flex;
+    width: 100%;
+    gap: 0.6rem;
+    flex-direction: column;
+}
+
+.container .updateVariable {
+    flex-direction: row;
+}
+
+
+button {
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    transition: 0.1s;
+    cursor: pointer;
+    background: rgba(255,255,255,0.7);
+}
+
+
+.container button:hover {
+    opacity: 0.9;
+    background: #fff;
+}
+.container .updateVariable button:nth-child(1):hover,
+.container .openButton:hover {
+    background-color: #b8e6c4;
+}
+
+.container  .updateVariable button:nth-child(2):hover,
+.container .close:hover {
+    background-color: #f0a3a1;
+}
+
+.container  .sortear:hover {
+    background-color: #b8dee6;
+}
+
+strong {
+    transition: .14s;
+    font-size: 2rem;
+}
+
+.dualidade,
+.dualidade button {
+    color: green;
+}
+
+.singularidade,
+.singularidade button{
+    color: purple;
+}
+
+.change {
+    top: calc(50vh - 0.5em);
+    padding: 1rem;
+    background-color: #efefef;
+    position: absolute;
+}
+
+.change.false {
+    position: static;
+}
+
+.change.false::after {
+    content: "Renderizar hook-dom"
+}
+
+.change:hover {
+    transform: translateX(-10px);
+    background-color: #b8dee6;
+}
+
+.change.true::after {
+    content: "Ver por dentro"
+}
+
+
+a {
+    color: green;
+    text-decoration: none;
+}
