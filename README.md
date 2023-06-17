@@ -7,8 +7,10 @@ source.min: https://reactwebjs.netlify.app/dist/reactweb.js
 Com sintaxe familiar ao ReactJS, com o ReactWeb é possível criar layouts reativos dentro do html. 
 Este framework foi desenvolvido para aplicações leves em casos em que não é possível usar o ReactJS, rodando diretamente no browser do cliente.
 
-![image](https://github.com/HugoRodriguesQW/reactweb-js/assets/71078903/2266efd0-b21d-46a4-aecb-f2a4a921713f)
+## Exemplo:
+- Simple-flex-array: [/examples/simple-flex-array/](https://reactwebjs.netlify.app/examples/simple-flex-array/) - ver código fonte:  [[source]](/examples/simple-flex-array)
 
+![image](https://github.com/HugoRodriguesQW/reactweb-js/assets/71078903/2266efd0-b21d-46a4-aecb-f2a4a921713f)
 
 ```jsx
 <html lang="pt-BR" >
