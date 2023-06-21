@@ -2,6 +2,11 @@
 
 source.min: https://reactwebjs.netlify.app/dist/reactweb.js
 
+### Foco!
+- Estilização em escopo por .css ```(contextId+class/id/tag/etc)```
+- Rotas de navegação, preversando componentes entre as páginas
+- Melhorias de performance
+
 ### Uma maneira simples de criar layouts reativos diretamente no documento HTML.
 
 Com sintaxe familiar ao ReactJS, com o ReactWeb é possível criar layouts reativos dentro do html. 
