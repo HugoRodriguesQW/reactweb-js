@@ -1,4 +1,4 @@
-﻿# reactweb.js browser framework!
+﻿# reactweb.js browser framework! ⚛️
 
 source.min: https://reactwebjs.netlify.app/dist/reactweb.js
 
